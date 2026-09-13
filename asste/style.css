@@ -1,0 +1,203 @@
+/* V2BOX Pro - Persian Cyber-Glass Styling */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --bg-void: #080B14;
+  --bg-surface: #10131c;
+  --bg-card: rgba(11, 14, 23, 0.65);
+  --border-glass: rgba(255, 255, 255, 0.1);
+  --border-hover: rgba(139, 92, 246, 0.4);
+  --glow-primary: rgba(56, 189, 248, 0.35);
+  --glow-secondary: rgba(139, 92, 246, 0.4);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Vazirmatn', 'Plus Jakarta Sans', sans-serif;
+  direction: rtl;
+  text-align: right;
+  background-color: #10131c;
+  color: #e0e2ef;
+  min-height: 100vh;
+  overflow-x: hidden;
+  selection-background-color: #4d8eff;
+  selection-color: #00285d;
+}
+
+::selection {
+  background: #4d8eff;
+  color: #00285d;
+}
+
+/* Custom Cyber Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b0e17;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #272a34;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4d8eff;
+}
+
+/* Glassmorphic Utilities */
+.cyber-glass {
+  background: rgba(11, 14, 23, 0.6);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.cyber-glass-elevated {
+  background: rgba(39, 42, 52, 0.55);
+  backdrop-filter: blur(28px);
+  -webkit-backdrop-filter: blur(28px);
+  border: 1px solid rgba(139, 92, 246, 0.3);
+}
+
+.cyber-glass-card {
+  background: rgba(16, 19, 28, 0.65);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.cyber-glass-card:hover {
+  border-color: rgba(96, 165, 250, 0.4);
+  box-shadow: 0 10px 35px -5px rgba(56, 189, 248, 0.2), 0 0 25px rgba(139, 92, 246, 0.15);
+  transform: translateY(-4px);
+}
+
+.cyber-glass-featured {
+  background: rgba(28, 31, 41, 0.85);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(168, 85, 247, 0.5);
+  box-shadow: 0 0 40px rgba(87, 27, 193, 0.35);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.cyber-glass-featured:hover {
+  border-color: rgba(192, 132, 252, 0.7);
+  box-shadow: 0 0 50px rgba(139, 92, 246, 0.5);
+  transform: translateY(-6px) scale(1.02);
+}
+
+/* Glowing Neon Text */
+.text-glow {
+  text-shadow: 0 0 25px rgba(56, 189, 248, 0.5), 0 0 45px rgba(139, 92, 246, 0.3);
+}
+
+.text-glow-purple {
+  text-shadow: 0 0 25px rgba(168, 85, 247, 0.5);
+}
+
+/* Pulse Glow Animation */
+@keyframes atmospheric-drift {
+  0%, 100% {
+    transform: translateY(0px) scale(1);
+    opacity: 0.25;
+  }
+  50% {
+    transform: translateY(-20px) scale(1.05);
+    opacity: 0.35;
+  }
+}
+
+.animate-atmosphere {
+  animation: atmospheric-drift 12s ease-in-out infinite;
+}
+
+/* Number font alignment */
+.persian-nums {
+  font-feature-settings: "ss01", "cv01";
+}
+
+.en-nums {
+  font-family: 'JetBrains Mono', 'Outfit', monospace;
+  direction: ltr;
+  display: inline-block;
+}
+
+/* Ripple button active effect */
+.btn-cyber-primary {
+  background: linear-gradient(135deg, #2563eb, #7c3aed, #9333ea);
+  background-size: 200% 200%;
+  transition: all 0.3s ease;
+}
+
+.btn-cyber-primary:hover {
+  background-position: right center;
+  box-shadow: 0 0 25px rgba(124, 58, 237, 0.5);
+  transform: translateY(-2px);
+}
+
+.btn-cyber-primary:active {
+  transform: translateY(0) scale(0.98);
+}
+
+.btn-cyber-outline {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: all 0.2s ease;
+}
+
+.btn-cyber-outline:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(56, 189, 248, 0.5);
+  color: #ffffff;
+}
+
+/* Modal Transition */
+.modal-overlay {
+  transition: opacity 0.25s ease, visibility 0.25s ease;
+}
+
+.modal-content {
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.25s ease;
+}
+
+.modal-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.modal-hidden .modal-content {
+  transform: scale(0.95) translateY(10px);
+}
+
+/* Ping Dot Animation */
+.ping-dot {
+  position: relative;
+  display: inline-flex;
+}
+
+.ping-dot::before {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  border-radius: 9999px;
+  background-color: #4edea3;
+  opacity: 0.75;
+  animation: ping 1.5s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+@keyframes ping {
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
