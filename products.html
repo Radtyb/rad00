@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html class="dark" dir="rtl" lang="fa">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تعرفه‌ها و پلن‌ها | V2BOX Pro</title>
+  <meta name="description" content="مشاهده و مقایسه انواع پلن‌های وی‌تو‌باکس پرو، دوره‌های ۱۰ روزه، ۳۰ روزه و ۹۰ روزه با حجم‌های متنوع و ترافیک فوق‌العاده">
+  <meta property="og:title" content="تعرفه‌ها و پلن‌ها | V2BOX Pro">
+  <meta property="og:description" content="لیست کامل تعرفه‌های کانفیگ پرسرعت V2BOX Pro سازگار با کلیه اپراتورها">
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "surface-container-highest": "#32343f",
+            "primary-fixed-dim": "#adc6ff",
+            "error": "#ffb4ab",
+            "background": "#10131c",
+            "surface-dim": "#10131c",
+            "on-surface-variant": "#c2c6d6",
+            "on-secondary-container": "#c4abff",
+            "inverse-primary": "#005ac2",
+            "on-primary": "#002e6a",
+            "tertiary": "#4edea3",
+            "on-surface": "#e0e2ef",
+            "surface-container-high": "#272a34",
+            "primary-container": "#4d8eff",
+            "secondary-container": "#571bc1",
+            "surface": "#10131c",
+            "surface-container": "#1c1f29",
+            "surface-container-lowest": "#0b0e17",
+            "surface-container-low": "#181b25",
+            "primary": "#adc6ff",
+            "secondary": "#d0bcff"
+          },
+          fontFamily: {
+            "headline": ["Outfit", "Vazirmatn", "sans-serif"],
+            "body": ["Vazirmatn", "Plus Jakarta Sans", "sans-serif"],
+            "mono": ["JetBrains Mono", "monospace"]
+          }
+        }
+      }
+    };
+  </script>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-background font-body text-on-surface relative min-h-screen overflow-x-hidden selection:bg-primary-container selection:text-on-primary-container">
+
+  <!-- Ambient Glowing Orbs -->
+  <div class="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+    <div class="absolute -top-32 right-1/4 w-96 h-96 rounded-full bg-primary-container/15 blur-[120px] animate-atmosphere"></div>
+    <div class="absolute top-1/3 -left-20 w-[500px] h-[500px] rounded-full bg-secondary-container/20 blur-[140px]"></div>
+    <div class="absolute -bottom-40 right-1/3 w-[450px] h-[450px] rounded-full bg-tertiary-container/10 blur-[150px]"></div>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header class="fixed top-0 inset-x-0 z-50 pt-3 md:pt-4 px-3 md:px-6">
+    <div class="max-w-panel-max-width mx-auto">
+      <div class="h-16 px-4 md:px-6 rounded-2xl bg-surface-container-lowest/70 backdrop-blur-2xl border border-white/10 shadow-[0_8px_32px_0_rgba(0,0,0,0.37)] flex items-center justify-between">
+        
+        <!-- Brand Logo & Name -->
+        <a href="index.html" class="flex items-center gap-3 group">
+          <div class="relative w-9 h-9 rounded-xl bg-gradient-to-br from-primary-container/30 to-secondary-container/50 border border-primary/40 flex items-center justify-center shadow-[0_0_15px_rgba(77,142,255,0.3)] group-hover:scale-105 transition-transform">
+            <span class="material-symbols-outlined text-primary text-xl">vpn_lock</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="font-headline text-xl md:text-2xl font-bold tracking-tight text-white">V2BOX</span>
+            <span class="px-2 py-0.5 rounded-md bg-secondary-container text-secondary-fixed text-xs font-headline font-bold border border-secondary/30">PRO</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden md:flex items-center gap-1.5 p-1 rounded-full bg-surface-container-low/60 backdrop-blur-md border border-white/5">
+          <a href="index.html" data-nav-link class="px-4 py-1.5 rounded-full text-on-surface-variant hover:text-white hover:bg-surface-container-high transition-all duration-200 text-sm font-semibold">صفحه اصلی</a>
+          <a href="products.html" data-nav-link class="px-4 py-1.5 rounded-full transition-all duration-200 text-sm font-semibold">پلن‌ها و تعرفه‌ها</a>
+          <a href="about.html" data-nav-link class="px-4 py-1.5 rounded-full text-on-surface-variant hover:text-white hover:bg-surface-container-high transition-all duration-200 text-sm font-semibold">درباره ما</a>
+          <a href="contact.html" data-nav-link class="px-4 py-1.5 rounded-full text-on-surface-variant hover:text-white hover:bg-surface-container-high transition-all duration-200 text-sm font-semibold">پشتیبانی</a>
+        </nav>
+
+        <!-- Actions -->
+        <div class="flex items-center gap-2.5">
+          <a href="https://t.me/v2boxprobot" target="_blank" rel="noopener noreferrer" class="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-primary-container/20 border border-primary/30 text-primary text-xs font-semibold hover:bg-primary-container/30 transition-all">
+            <span class="material-symbols-outlined text-sm">smart_toy</span>
+            <span>ربات تلگرام</span>
+          </a>
+          <a href="contact.html" class="w-9 h-9 rounded-full bg-primary/20 border border-primary/40 flex items-center justify-center text-primary shadow-[0_0_12px_rgba(173,198,255,0.25)] hover:scale-105 transition-transform" title="پشتیبانی">
+            <span class="material-symbols-outlined text-lg">headset_mic</span>
+          </a>
+          <!-- Mobile Menu Button -->
+          <button id="mobile-menu-btn" class="md:hidden w-9 h-9 rounded-xl bg-surface-container-high/80 border border-white/10 flex items-center justify-center text-white" aria-label="منوی موبایل">
+            <span class="material-symbols-outlined text-xl">menu</span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div id="mobile-menu-drawer" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-xl hidden flex flex-col justify-between p-6">
+    <div class="flex items-center justify-between pb-6 border-b border-white/10">
+      <div class="flex items-center gap-2">
+        <span class="font-headline text-xl font-bold text-white">V2BOX PRO</span>
+      </div>
+      <button id="mobile-menu-close" class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-white">
+        <span class="material-symbols-outlined">close</span>
+      </button>
+    </div>
+    <div class="flex flex-col gap-4 py-8">
+      <a href="index.html" class="px-4 py-3 rounded-xl bg-surface-container-low text-on-surface font-semibold text-lg flex items-center justify-between hover:bg-surface-container">
+        <span>صفحه اصلی</span>
+        <span class="material-symbols-outlined">home</span>
+      </a>
+      <a href="products.html" class="px-4 py-3 rounded-xl bg-secondary-container text-white font-bold text-lg flex items-center justify-between">
+        <span>پلن‌ها و تعرفه‌ها</span>
+        <span class="material-symbols-outlined">inventory_2</span>
+      </a>
+      <a href="about.html" class="px-4 py-3 rounded-xl bg-surface-container-low text-on-surface font-semibold text-lg flex items-center justify-between hover:bg-surface-container">
+        <span>درباره ما و آموزش‌ها</span>
+        <span class="material-symbols-outlined">info</span>
+      </a>
+      <a href="contact.html" class="px-4 py-3 rounded-xl bg-surface-container-low text-on-surface font-semibold text-lg flex items-center justify-between hover:bg-surface-container">
+        <span>پشتیبانی تلگرام</span>
+        <span class="material-symbols-outlined">support_agent</span>
+      </a>
+    </div>
+    <div class="pt-6 border-t border-white/10">
+      <a href="https://t.me/Radvin45" target="_blank" rel="noopener noreferrer" class="w-full py-3.5 rounded-xl bg-gradient-to-r from-primary-container to-secondary-container text-white font-bold text-center flex items-center justify-center gap-2">
+        <span class="material-symbols-outlined">send</span>
+        <span>ارتباط در تلگرام</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Main Products Catalog -->
+  <main class="relative z-10 w-full pt-28 md:pt-32 pb-16">
+    <div class="w-full max-w-panel-max-width mx-auto px-4 md:px-6 flex flex-col items-center">
+
+      <!-- Section Header -->
+      <section class="text-center max-w-2xl mx-auto mb-10">
+        <h1 class="font-headline text-3xl sm:text-4xl md:text-5xl font-extrabold text-white mb-3">
+          کاتالوگ کامل تعرفه‌ها و پلن‌ها
+        </h1>
+        <p class="text-on-surface-variant text-base sm:text-lg">
+          انتخاب آسان کانفیگ‌های پرسرعت متناسب با نیاز شما؛ ۱۰ روزه، ۳۰ روزه و ۹۰ روزه
+        </p>
+
+        <!-- Interactive Duration Switcher -->
+        <div class="inline-flex items-center p-1.5 rounded-2xl bg-surface-container-low border border-white/10 mt-6 shadow-xl">
+          <button id="tab-10" onclick="switchCatalogDuration('10')" class="px-5 py-2 rounded-xl text-sm font-bold transition-all bg-primary-container text-white shadow-md">
+            ۱۰ روزه (اقتصادی)
+          </button>
+          <button id="tab-30" onclick="switchCatalogDuration('30')" class="px-5 py-2 rounded-xl text-sm font-semibold transition-all text-on-surface-variant hover:text-white">
+            ۳۰ روزه (۱ ماهه)
+          </button>
+          <button id="tab-90" onclick="switchCatalogDuration('90')" class="px-5 py-2 rounded-xl text-sm font-semibold transition-all text-on-surface-variant hover:text-white">
+            ۹۰ روزه (۳ ماهه)
+          </button>
+        </div>
+      </section>
+
+      <!-- Products Grid (4 Standard Plans with Dynamic Pricing) -->
+      <section class="w-full mb-16">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full items-stretch">
+          
+          <!-- Plan 1: Basic -->
+          <div class="relative flex flex-col justify-between rounded-3xl p-6 sm:p-7 backdrop-blur-2xl bg-surface-container-lowest/50 border border-white/10 shadow-2xl hover:shadow-[0_0_30px_rgba(77,142,255,0.2)] hover:border-primary/40 hover:bg-surface-container-high/30 transition-all duration-300">
+            <div>
+              <div class="flex items-center justify-between mb-3">
+                <span class="px-2.5 py-1 rounded-md bg-white/5 text-xs text-on-surface-variant font-mono">BASIC-01</span>
+                <span class="text-xs text-emerald-400 font-medium flex items-center gap-1">
+                  <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span> آنلاین
+                </span>
+              </div>
+              <h3 class="font-headline text-xl text-on-surface font-bold">پلن پایه (Basic)</h3>
+              
+              <!-- Dynamic Price Display -->
+              <div class="py-3">
+                <span id="price-basic" class="font-headline text-3xl text-on-surface font-black tracking-tight">۲۵,۰۰۰</span>
+                <span id="duration-label-basic" class="text-xs text-on-surface-variant mr-1">تومان / ۱۰ روزه</span>
+              </div>
+
+              <p class="text-xs text-on-surface-variant pb-3 border-b border-white/5">
+                حجم مناسب برای کارهای روزمره، پیام‌رسان‌ها و هوش مصنوعی
+              </p>
+
+              <!-- Specs -->
+              <div class="space-y-3 pt-4 text-xs text-on-surface-variant">
+                <div class="flex items-center gap-2">
+                  <span class="material-symbols-outlined text-primary text-base">cloud_download</span>
+                  <span id="volume-basic" class="font-semibold text-white">ترافیک: ۵ گیگابایت</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <span class="material-symbols-outlined text-primary text-base">devices</span>
+                  <span>اتصال همزمان ۵ کاربر</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <span class="material-symbols-outlined text-primary text-base">psychology</span>
+                  <span>سازگار با ChatGPT و Claude</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <span class="material-symbols-outlined text-primary text-base">signal_cellular_alt</span>
+                  <span>همراه اول و ایرانسل</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-8">
+              <button data-buy-plan="basic" class="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-primary-container to-secondary text-white text-xs font-bold shadow-lg transition-all active:scale-[0.98]">
+                خرید پلن پایه
+              </button>
+            </div>
+          </div>
+
+          <!-- Plan 2: Standard -->
+          <div class="relative flex flex-col justify-between rounded-3xl p-6 sm:p-7 backdrop-blur-2xl bg-surface-container-lowest/50 border border-white/10 shadow-2xl hover:shadow-[0_0_30px_rgba(77,142,255,0.25)] hover:border-primary/40 hover:bg-surface-container-high/30 transition-all duration-300">
+            <div>
+              <div class="flex items-center justify-between mb-3">
+                <span class="px-2.5 py-1 rounded-md bg-white/5 text-xs text-on-surface-variant font-mono">STD-02</span>
+                <span class="text-xs text-emerald-400 font-medium flex items-center gap-1">
+                  <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span> آنلاین
+                </span>
+              </div>
+              <h3 class="font-headline text-xl text-on-surface font-bold">پلن استاندارد (Standard)</h3>
+              
+              <!-- Dynamic Price Display -->
+              <div class="py-3">
+                <span id="price-standard" class="font-headline text-3xl text-on-surface font-black tracking-tight">۵۰,۰۰۰</span>
+                <span id="duration-label-standard" class="text-xs text-on-surface-variant mr-1">تومان / ۱۰ روزه</span>
+              </div>
+
+              <p class="text-xs text-on-surface-variant pb-3 border-b border-white/5">
+                ترافیک ایده‌آل برای اینستاگرام، تلگرام، یوتیوب و کارهای دانشجویی
+              </p>
+
+              <!-- Specs -->
+              <div class="space-y-3 pt-4 text-xs text-on-surface-variant">
+                <div class="flex items-center gap-2">
+                  <span class="material-symbols-outlined text-primary text-base">cloud_download</span>
+                  <span id="volume-standard" class="font-semibold text-white">ترافیک: ۱۰ گیگابایت</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <span class="material-symbols-outlined text-primary text-base">devices</span>
+                  <span>اتصال همزمان ۵ کاربر</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <span class="material-symbols-outlined text-primary text-base">movie</span>
+                  <span>استریم ویدیو فول اچ‌دی</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <span class="material-symbols-outlined text-primary text-base">signal_cellular_alt</span>
+                  <span>سازگار با کلیه اپراتورها</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-8">
+              <button data-buy-plan="standard" class="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-primary-container to-secondary text-white text-xs font-bold shadow-lg transition-all active:scale-[0.98]">
+                خرید پلن استاندارد
+              </button>
+            </div>
+          </div>
+
+          <!-- Plan 3: Pro Turbo (Featured) -->
+          <div class="relative flex flex-col justify-between rounded-3xl p-6 sm:p-7 backdrop-blur-2xl bg-surface-container-high/70 border-2 border-[#a855f7]/60 shadow-[0_0_40px_rgba(87,27,193,0.35)] hover:shadow-[0_0_50px_rgba(139,92,246,0.45)] transition-all duration-300 scale-[1.02] lg:-translate-y-2">
+            <div class="absolute -top-3.5 right-1/2 translate-x-1/2 px-4 py-1 rounded-full bg-gradient-to-r from-primary-container to-secondary text-white text-[11px] font-headline font-bold uppercase tracking-wider shadow-lg">
+              محبوب‌ترین انتخاب
+            </div>
+
+            <div>
+              <div class="flex items-center justify-between mb-3 mt-1">
+                <span class="px-2.5 py-1 rounded-md bg-secondary-container/40 text-xs text-secondary-fixed font-mono border border-secondary/30">TURBO-PRO</span>
+                <span class="text-xs text-amber-300 font-medium flex items-center gap-1">
+                  <span class="material-symbols-outlined text-xs">bolt</span> فوق سریع
+                </span>
+              </div>
+              <h3 class="font-headline text-xl text-white font-bold flex items-center gap-1.5">
+                پلن ویژه (Pro Turbo)
+              </h3>
+              
+              <!-- Dynamic Price Display -->
+              <div class="py-3">
+                <span id="price-turbo" class="font-headline text-3xl text-white font-black tracking-tight">۷۵,۰۰۰</span>
+                <span id="duration-label-turbo" class="text-xs text-primary mr-1">تومان / ۱۰ روزه</span>
+              </div>
+
+              <p class="text-xs text-on-surface pb-3 border-b border-white/10">
+                مناسب ترید، فارکس، هوش مصنوعی، استریم و گیم با پینگ بسیار پایین
+              </p>
+
+              <!-- Specs -->
+              <div class="space-y-3 pt-4 text-xs text-white font-medium">
+                <div class="flex items-center gap-2">
+                  <span class="material-symbols-outlined text-tertiary text-base">rocket_launch</span>
+                  <span id="volume-turbo" class="font-semibold text-white">ترافیک: ۱۵ گیگابایت</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <span class="material-symbols-outlined text-tertiary text-base">devices</span>
+                  <span>اتصال همزمان ۵ کاربر بدون افت سرعت</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <span class="material-symbols-outlined text-tertiary text-base">security</span>
+                  <span>آی‌پی اختصاصی تمیز و پایدار</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <span class="material-symbols-outlined text-tertiary text-base">wifi</span>
+                  <span>همراه اول، ایرانسل، رایتل و مخابرات</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-8">
+              <button data-buy-plan="turbo" class="w-full py-3.5 px-4 rounded-xl bg-gradient-to-r from-[#2563eb] via-[#7c3aed] to-[#9333ea] hover:from-[#3b82f6] hover:to-[#a855f7] text-white text-xs font-bold shadow-[0_0_25px_rgba(124,58,237,0.5)] transition-all active:scale-[0.98]">
+                خرید آنی پلن توربو
+              </button>
+            </div>
+          </div>
+
+          <!-- Plan 4: Ultimate -->
+          <div class="relative flex flex-col justify-between rounded-3xl p-6 sm:p-7 backdrop-blur-2xl bg-surface-container-lowest/50 border border-white/10 shadow-2xl hover:shadow-[0_0_30px_rgba(78,222,163,0.2)] hover:border-tertiary/40 hover:bg-surface-container-high/30 transition-all duration-300">
+            <div>
+              <div class="flex items-center justify-between mb-3">
+                <span class="px-2.5 py-1 rounded-md bg-white/5 text-xs text-on-surface-variant font-mono">ULTRA-04</span>
+                <span class="text-xs text-tertiary font-medium flex items-center gap-1">
+                  <span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span> نامحدود
+                </span>
+              </div>
+              <h3 class="font-headline text-xl text-on-surface font-bold">پلن نامحدود (Ultimate)</h3>
+              
+              <!-- Dynamic Price Display -->
+              <div class="py-3">
+                <span id="price-ultimate" class="font-headline text-3xl text-on-surface font-black tracking-tight">۱۰۰,۰۰۰</span>
+                <span id="duration-label-ultimate" class="text-xs text-on-surface-variant mr-1">تومان / ۱۰ روزه</span>
+              </div>
+
+              <p class="text-xs text-on-surface-variant pb-3 border-b border-white/5">
+                بیشترین پهنای باند و بالاترین ترافیک برای دانلود سنگین و تیم‌ها
+              </p>
+
+              <!-- Specs -->
+              <div class="space-y-3 pt-4 text-xs text-on-surface-variant">
+                <div class="flex items-center gap-2">
+                  <span class="material-symbols-outlined text-primary text-base">cloud_download</span>
+                  <span id="volume-ultimate" class="font-semibold text-white">ترافیک: ۲۰ گیگابایت</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <span class="material-symbols-outlined text-primary text-base">speed</span>
+                  <span>سرعت نامحدود تا ۱ گیگابیت</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <span class="material-symbols-outlined text-primary text-base">devices</span>
+                  <span>اتصال همزمان ۵ کاربر</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <span class="material-symbols-outlined text-primary text-base">headset_mic</span>
+                  <span>پشتیبانی VIP اولویت‌دار</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-8">
+              <button data-buy-plan="ultimate" class="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-primary-container to-secondary text-white text-xs font-bold shadow-lg transition-all active:scale-[0.98]">
+                خرید پلن نامحدود
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Technical Protocol Feature Matrix -->
+      <section class="w-full mb-16 p-6 sm:p-8 rounded-3xl bg-surface-container-low/60 border border-white/10 backdrop-blur-xl">
+        <div class="text-center max-w-xl mx-auto mb-8">
+          <h2 class="font-headline text-2xl font-bold text-white mb-2">جدول مشخصات و پروتکل‌های فنی</h2>
+          <p class="text-xs text-on-surface-variant">تمام پلن‌های V2BOX Pro مجهز به جدیدترین پروتکل‌های امنیتی ضد فیلتر هستند</p>
+        </div>
+
+        <div class="overflow-x-auto">
+          <table class="w-full text-right text-xs sm:text-sm">
+            <thead>
+              <tr class="border-b border-white/10 text-on-surface-variant">
+                <th class="py-3 px-4 font-semibold">ویژگی فنی</th>
+                <th class="py-3 px-4 font-semibold text-center">پایه</th>
+                <th class="py-3 px-4 font-semibold text-center">استاندارد</th>
+                <th class="py-3 px-4 font-semibold text-center text-primary">توربو ویژه</th>
+                <th class="py-3 px-4 font-semibold text-center">نامحدود</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-white/5 text-on-surface">
+              <tr>
+                <td class="py-3.5 px-4 font-medium flex items-center gap-2">
+                  <span class="material-symbols-outlined text-primary text-base">security</span>
+                  پروتکل VLESS + Reality (TLS Camouflage)
+                </td>
+                <td class="py-3.5 px-4 text-center text-emerald-400">✓ فعال</td>
+                <td class="py-3.5 px-4 text-center text-emerald-400">✓ فعال</td>
+                <td class="py-3.5 px-4 text-center text-emerald-400 font-bold">✓ اختصاصی</td>
+                <td class="py-3.5 px-4 text-center text-emerald-400">✓ فعال</td>
+              </tr>
+              <tr>
+                <td class="py-3.5 px-4 font-medium flex items-center gap-2">
+                  <span class="material-symbols-outlined text-primary text-base">bolt</span>
+                  پروتکل‌های جایگزین (Trojan / VMess / Hysteria 2)
+                </td>
+                <td class="py-3.5 px-4 text-center text-on-surface-variant">Trojan</td>
+                <td class="py-3.5 px-4 text-center text-emerald-400">✓ فعال</td>
+                <td class="py-3.5 px-4 text-center text-emerald-400 font-bold">✓ تمام پروتکل‌ها</td>
+                <td class="py-3.5 px-4 text-center text-emerald-400">✓ تمام پروتکل‌ها</td>
+              </tr>
+              <tr>
+                <td class="py-3.5 px-4 font-medium flex items-center gap-2">
+                  <span class="material-symbols-outlined text-primary text-base">public</span>
+                  لوکیشن سرورها (آلمان، فنلاند، هلند)
+                </td>
+                <td class="py-3.5 px-4 text-center">آلمان</td>
+                <td class="py-3.5 px-4 text-center">آلمان + فنلاند</td>
+                <td class="py-3.5 px-4 text-center font-bold text-primary">همه لوکیشن‌ها</td>
+                <td class="py-3.5 px-4 text-center">همه لوکیشن‌ها</td>
+              </tr>
+              <tr>
+                <td class="py-3.5 px-4 font-medium flex items-center gap-2">
+                  <span class="material-symbols-outlined text-primary text-base">lock</span>
+                  آی‌پی تمیز ترید و هوش مصنوعی
+                </td>
+                <td class="py-3.5 px-4 text-center text-emerald-400">✓</td>
+                <td class="py-3.5 px-4 text-center text-emerald-400">✓</td>
+                <td class="py-3.5 px-4 text-center text-emerald-400 font-bold">✓ تضمینی</td>
+                <td class="py-3.5 px-4 text-center text-emerald-400">✓ تضمینی</td>
+              </tr>
+              <tr>
+                <td class="py-3.5 px-4 font-medium flex items-center gap-2">
+                  <span class="material-symbols-outlined text-primary text-base">support</span>
+                  پشتیبانی و تضمین اتصال
+                </td>
+                <td class="py-3.5 px-4 text-center">عادی</td>
+                <td class="py-3.5 px-4 text-center">عادی</td>
+                <td class="py-3.5 px-4 text-center font-bold text-primary">پاسخگویی آنی</td>
+                <td class="py-3.5 px-4 text-center text-tertiary">VIP اولویت‌دار</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Supported Operating Systems & Apps -->
+      <section class="w-full mb-12">
+        <h3 class="font-headline text-xl font-bold text-center text-white mb-6">نرم‌افزارهای سازگار برای اتصال</h3>
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+          <div class="p-4 rounded-2xl bg-surface-container-low/50 border border-white/5 text-center">
+            <span class="material-symbols-outlined text-primary text-3xl mb-2">phone_iphone</span>
+            <h4 class="font-bold text-white text-sm">iOS (آیفون / آیپد)</h4>
+            <p class="text-xs text-on-surface-variant mt-1">V2BOX, Streisand, FoXray</p>
+          </div>
+          <div class="p-4 rounded-2xl bg-surface-container-low/50 border border-white/5 text-center">
+            <span class="material-symbols-outlined text-emerald-400 text-3xl mb-2">android</span>
+            <h4 class="font-bold text-white text-sm">اندروید</h4>
+            <p class="text-xs text-on-surface-variant mt-1">v2rayNG, V2BOX Android</p>
+          </div>
+          <div class="p-4 rounded-2xl bg-surface-container-low/50 border border-white/5 text-center">
+            <span class="material-symbols-outlined text-blue-400 text-3xl mb-2">laptop_windows</span>
+            <h4 class="font-bold text-white text-sm">ویندوز</h4>
+            <p class="text-xs text-on-surface-variant mt-1">v2rayN, Nekoray</p>
+          </div>
+          <div class="p-4 rounded-2xl bg-surface-container-low/50 border border-white/5 text-center">
+            <span class="material-symbols-outlined text-purple-400 text-3xl mb-2">laptop_mac</span>
+            <h4 class="font-bold text-white text-sm">مک (macOS)</h4>
+            <p class="text-xs text-on-surface-variant mt-1">V2BOX Mac, FoXray</p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Interactive Order Modal -->
+  <div id="order-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/75 backdrop-blur-md modal-overlay modal-hidden" role="dialog" aria-modal="true">
+    <div class="relative w-full max-w-lg rounded-3xl bg-surface-container-lowest/90 border border-primary/30 shadow-[0_16px_50px_rgba(0,0,0,0.6)] p-6 sm:p-8 modal-content text-right">
+      <button data-modal-close class="absolute top-5 left-5 w-8 h-8 rounded-full bg-surface-container-high/80 text-on-surface-variant hover:text-white flex items-center justify-center transition-colors">
+        <span class="material-symbols-outlined text-lg">close</span>
+      </button>
+
+      <div class="flex items-center gap-3 mb-6">
+        <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-primary-container/40 to-secondary-container/40 border border-primary/40 flex items-center justify-center text-primary shadow-[0_0_15px_rgba(77,142,255,0.3)]">
+          <span class="material-symbols-outlined">shopping_cart_checkout</span>
+        </div>
+        <div>
+          <h3 id="modal-plan-title" class="font-headline text-xl font-bold text-white">ثبت سفارش کانفیگ</h3>
+          <p class="text-xs text-on-surface-variant">انتخاب دوره و اتصال مستقیم به تلگرام</p>
+        </div>
+      </div>
+
+      <div class="mb-5">
+        <label class="block text-xs font-semibold text-on-surface-variant mb-2">مدت زمان اعتبار:</label>
+        <div class="grid grid-cols-3 gap-2">
+          <button type="button" data-duration-btn="10" class="py-2.5 px-3 rounded-xl border border-primary bg-primary-container text-white text-xs font-bold transition-all text-center">
+            ۱۰ روزه
+          </button>
+          <button type="button" data-duration-btn="30" class="py-2.5 px-3 rounded-xl border border-white/10 bg-surface-container-high/60 text-on-surface-variant text-xs font-medium transition-all text-center hover:border-primary/40">
+            ۳۰ روزه (۱ ماه)
+          </button>
+          <button type="button" data-duration-btn="90" class="py-2.5 px-3 rounded-xl border border-white/10 bg-surface-container-high/60 text-on-surface-variant text-xs font-medium transition-all text-center hover:border-primary/40">
+            ۹۰ روزه (۳ ماه)
+          </button>
+        </div>
+      </div>
+
+      <div class="mb-5">
+        <label for="modal-operator-select" class="block text-xs font-semibold text-on-surface-variant mb-2">اپراتور اینترنت شما جهت بهینه‌سازی کانفیگ:</label>
+        <select id="modal-operator-select" class="w-full py-2.5 px-4 rounded-xl bg-surface-container-high border border-white/10 text-white text-sm focus:outline-none focus:border-primary">
+          <option value="همراه اول">همراه اول (MCI)</option>
+          <option value="ایرانسل">ایرانسل (Irancell)</option>
+          <option value="رایتل">رایتل (Rightel)</option>
+          <option value="شاتل و مخابرات (ADSL/FTTH)">شاتل، مخابرات و فیبر نوری</option>
+          <option value="تمام اپراتورها">استفاده همگانی در چند اپراتور</option>
+        </select>
+      </div>
+
+      <div class="p-4 rounded-2xl bg-surface-container-low border border-white/10 mb-6 flex items-center justify-between">
+        <div>
+          <span class="text-xs text-on-surface-variant block">مبلغ نهایی:</span>
+          <div class="flex items-baseline gap-1">
+            <span id="modal-plan-price" class="font-headline text-2xl font-black text-white">۷۵,۰۰۰</span>
+            <span class="text-xs text-on-surface-variant">تومان</span>
+          </div>
+        </div>
+        <div class="text-left">
+          <span class="text-xs text-on-surface-variant block">مشخصات:</span>
+          <span id="modal-plan-volume" class="text-xs font-bold text-primary">۱۵ گیگ</span>
+          <span class="text-xs text-on-surface-variant">/</span>
+          <span id="modal-plan-duration" class="text-xs text-white">۱۰ روزه</span>
+        </div>
+      </div>
+
+      <div class="space-y-2.5">
+        <a id="modal-tg-direct-link" href="https://t.me/Radvin45" target="_blank" rel="noopener noreferrer" class="w-full py-3.5 px-4 rounded-xl bg-gradient-to-r from-primary-container via-secondary-container to-secondary text-white font-bold text-sm flex items-center justify-center gap-2 shadow-[0_4px_20px_rgba(77,142,255,0.35)] hover:opacity-95 transition-all">
+          <span class="material-symbols-outlined text-lg">send</span>
+          <span>ارسال مستقیم سفارش در تلگرام به آیدی Radvin45@</span>
+        </a>
+
+        <a id="modal-tg-bot-link" href="http://t.me/v2boxprobot" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 px-4 rounded-xl bg-surface-container-high border border-white/15 hover:border-primary/40 text-on-surface text-xs font-semibold flex items-center justify-center gap-2 transition-all">
+          <span class="material-symbols-outlined text-base">smart_toy</span>
+          <span>خرید خودکار از ربات تلگرام v2boxprobot@</span>
+        </a>
+
+        <button type="button" id="modal-copy-btn" class="w-full py-2 px-4 rounded-xl text-on-surface-variant hover:text-white text-xs flex items-center justify-center gap-1.5 transition-colors">
+          <span class="material-symbols-outlined text-base">content_copy</span>
+          <span>کپی متن سفارش در کلیپ‌بورد</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="relative z-10 w-full mt-16 py-10 border-t border-white/5">
+    <div class="max-w-panel-max-width mx-auto px-4 md:px-6">
+      <div class="p-6 md:p-8 rounded-2xl bg-surface-container-lowest/40 backdrop-blur-xl border border-white/5 flex flex-col md:flex-row items-center justify-between gap-6">
+        <div class="flex items-center gap-3">
+          <div class="w-8 h-8 rounded-xl bg-primary/20 border border-primary/30 flex items-center justify-center text-primary">
+            <span class="material-symbols-outlined text-base">shield</span>
+          </div>
+          <div>
+            <div class="font-headline font-bold text-white text-base">V2BOX Pro</div>
+            <div class="text-xs text-on-surface-variant">کیفیت، سرعت و پایداری بدون قطعی</div>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap items-center gap-4 text-xs text-on-surface-variant">
+          <a href="index.html" class="hover:text-white transition-colors">صفحه اصلی</a>
+          <a href="products.html" class="hover:text-white transition-colors">پلن‌ها و تعرفه‌ها</a>
+          <a href="about.html" class="hover:text-white transition-colors">درباره ما و آموزش</a>
+          <a href="contact.html" class="hover:text-white transition-colors">پشتیبانی تلگرام</a>
+        </div>
+
+        <div class="flex items-center gap-3">
+          <a href="https://t.me/v2boxprobot" target="_blank" rel="noopener noreferrer" class="text-xs text-primary font-mono hover:underline">
+            @v2boxprobot
+          </a>
+          <span class="text-white/20">•</span>
+          <a href="https://t.me/Radvin45" target="_blank" rel="noopener noreferrer" class="text-xs text-secondary font-mono hover:underline">
+            @Radvin45
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Duration Switcher Script -->
+  <script>
+    const CATALOG_DATA = {
+      '10': {
+        suffix: 'تومان / ۱۰ روزه',
+        plans: {
+          basic: { price: '۲۵,۰۰۰', volume: 'ترافیک: ۵ گیگابایت' },
+          standard: { price: '۵۰,۰۰۰', volume: 'ترافیک: ۱۰ گیگابایت' },
+          turbo: { price: '۷۵,۰۰۰', volume: 'ترافیک: ۱۵ گیگابایت' },
+          ultimate: { price: '۱۰۰,۰۰۰', volume: 'ترافیک: ۲۰ گیگابایت' }
+        }
+      },
+      '30': {
+        suffix: 'تومان / ۳۰ روزه',
+        plans: {
+          basic: { price: '۶۵,۰۰۰', volume: 'ترافیک: ۱۵ گیگابایت' },
+          standard: { price: '۱۳۰,۰۰۰', volume: 'ترافیک: ۳۰ گیگابایت' },
+          turbo: { price: '۱۹۵,۰۰۰', volume: 'ترافیک: ۴۵ گیگابایت' },
+          ultimate: { price: '۲۶۰,۰۰۰', volume: 'ترافیک: ۶۰ گیگابایت' }
+        }
+      },
+      '90': {
+        suffix: 'تومان / ۹۰ روزه',
+        plans: {
+          basic: { price: '۱۸۰,۰۰۰', volume: 'ترافیک: ۵۰ گیگابایت' },
+          standard: { price: '۳۶۰,۰۰۰', volume: 'ترافیک: ۱۰۰ گیگابایت' },
+          turbo: { price: '۵۴۰,۰۰۰', volume: 'ترافیک: ۱۵۰ گیگابایت' },
+          ultimate: { price: '۷۲۰,۰۰۰', volume: 'ترافیک: ۲۰۰ گیگابایت' }
+        }
+      }
+    };
+
+    function switchCatalogDuration(duration) {
+      ['10', '30', '90'].forEach(d => {
+        const btn = document.getElementById('tab-' + d);
+        if (btn) {
+          if (d === duration) {
+            btn.className = 'px-5 py-2 rounded-xl text-sm font-bold transition-all bg-primary-container text-white shadow-md';
+          } else {
+            btn.className = 'px-5 py-2 rounded-xl text-sm font-semibold transition-all text-on-surface-variant hover:text-white';
+          }
+        }
+      });
+
+      const data = CATALOG_DATA[duration];
+      if (!data) return;
+
+      ['basic', 'standard', 'turbo', 'ultimate'].forEach(planKey => {
+        const priceEl = document.getElementById('price-' + planKey);
+        const durationLabelEl = document.getElementById('duration-label-' + planKey);
+        const volumeEl = document.getElementById('volume-' + planKey);
+
+        if (priceEl) priceEl.textContent = data.plans[planKey].price;
+        if (durationLabelEl) durationLabelEl.textContent = data.suffix;
+        if (volumeEl) volumeEl.textContent = data.plans[planKey].volume;
+      });
+    }
+  </script>
+  <!-- Main Script -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
