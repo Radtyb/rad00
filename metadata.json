@@ -1,0 +1,6 @@
+{
+  "name": "V2BOX Pro",
+  "description": "وب‌سایت رسمی فروش کانفیگ‌های پرسرعت و پایدار V2BOX Pro با طراحی سایبر-گلس، کاتالوگ پلن‌ها و سفارش مستقیم تلگرام",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
